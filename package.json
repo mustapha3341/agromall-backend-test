@@ -1,22 +1,24 @@
 {
-  "name": "refetch-interval",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "type": "module",
-  "dependencies": {
-    "bcryptjs": "2.4.3",
-    "express": "4.17.3",
-    "express-handlebars": "6.0.5",
-    "jsonwebtoken": "8.5.1",
-    "lowdb": "3.0.0",
-    "morgan": "1.10.0",
-    "uuid": "8.3.2"
-  },
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.21"
-  }
+    "name": "refetch-interval",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "bcryptjs": "2.4.3",
+        "express": "4.17.3",
+        "express-handlebars": "6.0.5",
+        "jsonwebtoken": "8.5.1",
+        "lowdb": "3.0.0",
+        "morgan": "1.10.0",
+        "uuid": "8.3.2"
+    },
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "nodemon": "^2.0.15"
+    }
 }
